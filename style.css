@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(36, 100%, 99%);
+    padding: 50px 50px 50px 50px ;
+
+}
+
+
+.head {
+    background-color: hsl(36, 100%, 99%);
+
+}
+
+.links, a {
+    position: relative;
+    left: 500px;
+    bottom: 15px;
+    font-family: Hanken Grotesk;
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+}
+.img1{
+    width: 900px;
+    height: 300px;
+
+}
+.h{
+    display: flex;
+    
+}
+h1{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+}
+#pa{
+    
+
+
+    
