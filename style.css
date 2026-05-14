@@ -1,42 +1,134 @@
 body {
     background-color: hsl(36, 100%, 99%);
-    padding: 50px 50px 50px 50px ;
+    padding: 50px 50px 50px 50px;
 
 }
 
 
 .head {
     background-color: hsl(36, 100%, 99%);
-
+    width: 100vw;
+    padding: 40px 40px 40px 40px ;
 }
 
-.links, a {
+.links,
+a {
     position: relative;
     left: 500px;
     bottom: 15px;
     font-family: Hanken Grotesk;
     color: hsl(236, 13%, 42%);
     text-decoration: none;
-    justify-content: space-between;
+   
 }
-.container{
+
+.container {
     display: flex;
+    width: 300vw;
 }
-.img1{
-    width: 900px;
+
+.left-container {
+    padding: 0px 40px 40px 40px ;
+    width: 50vw;
+
+}
+
+.img1 {
+    width: 100%;
     height: 300px;
 
 }
-.h{
+
+.h {
     display: flex;
     
+
 }
-h1{
+
+h1 {
     font-family: Hanken Grotesk;
-    font-weight: 800;
+    font-weight: 800px;
+    font-size: 50px;
+    width: 50%;
 }
-#pa{
-    
 
+p {
+    font-family: Hanken Grotesk;
+    color: hsl(236, 13%, 42%);
+    font-weight: 500;
 
+}
+
+.p {
     
+    width: 50%;
+}
+
+button {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    font-family: Hanken Grotesk;
+    border: none;
+    padding: 20px 0px 20px 10px;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 4px;
+    font-style: bold;
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.right-container {
+    background-color: hsl(240, 100%, 5%);
+    width: 20vw;
+    height: 60vh;
+    padding: 20px 20px 20px 20px;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-family: Hanken Grotesk;
+    font-weight: 900px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+h3 {
+    color: white;
+    font-family: Hanken Grotesk;
+}
+
+.bottom {
+    display: flex;
+    width: 100vw;
+   
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    display: flex;
+    padding-left: 40px;
+  
+}
+
+h4 {
+    font-family: Hanken Grotesk;
+    color: hsl(5, 85%, 63%);
+    font-size: 50px;
+    margin: 0px;
+}
+h5{
+    font-family: Hanken Grotesk;
+    font-size: 30px;
+    margin: 0px;
+}
+.s{
+    width: 10vw;
+    height: 30vh;
+}
+.content{
+    padding: 0px 0px 0px 30px ;
+    width: 20vw;
+
+}
